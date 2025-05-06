@@ -38,5 +38,18 @@ const resetV = (event: Event) => {
 </script>
 
 <style scoped>
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:min(500px,100%);
+    height: min(360px,100%);
 
+}
+video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
 </style>
