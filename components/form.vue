@@ -14,5 +14,9 @@ const handleSubmit = () => {
 </script>
 
 <style scoped>
-
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 </style>
