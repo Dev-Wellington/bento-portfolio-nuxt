@@ -1,10 +1,11 @@
 <template>
+<slot/>
   <div class="layout">
     <header class="layout__header">
       <nav class="layout__nav">
         <ul class="layout__nav-list">
           <li class="layout__nav-item">
-            <NuxtLink to="/home" class="layout__nav-link">Home</NuxtLink>
+            <NuxtLink to="/" class="layout__nav-link">Home</NuxtLink>
           </li>
           <li class="layout__nav-item">
             <NuxtLink to="/projects" class="layout__nav-link"
@@ -19,7 +20,7 @@
     </header>
 
     <main class="layout__main">
-      <slot />
+      <NuxtPage/>
     </main>
 
     <footer class="layout__footer">
