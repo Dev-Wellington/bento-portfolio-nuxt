@@ -1,8 +1,11 @@
 <template>
-  <div>
+  <!-- <div>
     <section>
       <div>
-        <div><img src="" alt="" /></div>
+        <div>
+          <icon-email/>
+          <btn-email/>
+        </div>
         <div>github</div>
       </div>
       <div>
@@ -49,7 +52,7 @@
       </div>
       <button type="submit">Enviar Mensagem</button>
     </section>
-  </div>
+  </div> -->
 </template>
 
 <script setup></script>
