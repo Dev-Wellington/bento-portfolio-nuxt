@@ -1,28 +1,20 @@
-<script setup></script>
 <template>
   <div>
     <div>
-      <!-- Background project mage -->
+      <card-video-project/>
+      <card-info-project/>
     </div>
     <div>
-      <div>
-        <h2>{{ title }}</h2>
-        <p>{{ description }}</p>
-        <div>
-          <v-for>{{ stack }}</v-for>
-        </div>
-      </div>
-      <div>
-        <button>
-          <a href="{{ link }}" target="_blank">View project</a>
-        </button>
-        <button>
-          <a href="{{ source }}" target="_blank">View source</a>
-        </button>
-      </div>
+      <btn-live-project/>
+      <btn-github-links/>
     </div>
   </div>
 </template>
 
+<script setup lang="ts">
 
-<style scoped></style>
+</script>
+
+<style scoped>
+
+</style>
