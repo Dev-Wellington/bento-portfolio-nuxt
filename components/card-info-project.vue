@@ -10,19 +10,31 @@
         tempo de forma eficiente, utilizando a técnica Pomodoro.
       </p>
     </div>
-    <div>
+    <div class="skills">
       <!-- Habilidades -->
       <span>aaaa</span>
-      <span>aaa</span>
-      <span>aaa</span>
-    </div>
-    <div>
-      <click></click>
-      <github></github>
+      <span>aaaa</span>
+      <span>aaaa</span>
     </div>
   </div>
 </template>
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+p {
+  font-size: 1.125rem;
+  color: #666;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+</style>
