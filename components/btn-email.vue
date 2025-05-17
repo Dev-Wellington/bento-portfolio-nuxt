@@ -2,7 +2,7 @@
     <div class="btn-email__background">
         <div class="btn-email__mail">
             <icon-mail/>
-            <p class="btn-email__text">wellingtonsantosprogrammer@email.com</p>
+            <p class="btn-email__text">wellingtonsantosprogrammer@gmail.com</p>
         </div>
     </div>
 </template>
@@ -12,17 +12,30 @@
 </script>
 
 <style scoped>
+.btn-email__background{
+    width: 400px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
 .btn-email__mail{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    width: 100%;
-    height: 100%;
-    background-color: #373737;
-    border-radius: 15px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    gap:25px;
+    background-color: #e5e5e5;
+    color: #525252;
+
+}
+.btn-email__mail:hover{
+    color: #d5d5d5;
+}
+.btn-email__text{
+    font-size: 1rem;
+    color: #525252;
 }
 </style>
