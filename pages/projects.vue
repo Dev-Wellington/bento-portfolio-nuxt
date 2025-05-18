@@ -49,4 +49,7 @@
   align-items: center;
   gap: 10px;
 }
+@media screen and (width <= x) {
+
+}
 </style>
