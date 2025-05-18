@@ -4,7 +4,7 @@
       href="https://github.com/Dev-Wellington/"
       class="btn-github-profile__link"
     >
-      <icon-github />
+      <icon-github class="btn-github-profile__logo" />
     </a>
   </div>
 </template>
@@ -33,7 +33,7 @@
   color: #262626;
 }
 .btn-github-profile__logo {
-  width: 100%;
-  height: 100%;
+  width: 80px;
+  height: 80px;
 }
 </style>

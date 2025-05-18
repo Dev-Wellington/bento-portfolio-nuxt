@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contact">
     <div class="socials">
       <div class="email-github">
         <btn-email />
@@ -19,5 +19,18 @@
 </script>
 
 <style scoped>
-
+.contact{
+ margin-top:3vh;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+  
+  gap: 2rem;
+}
+.email-github{
+  display: flex;
+  flex-direction:column;
+  gap:50px;
+}
 </style>

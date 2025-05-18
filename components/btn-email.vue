@@ -1,7 +1,7 @@
 <template>
     <div class="btn-email__background">
         <div class="btn-email__mail">
-            <icon-mail/>
+            <icon-mail class="btn-email__icon"/>
             <p class="btn-email__text">wellingtonsantosprogrammer@gmail.com</p>
         </div>
     </div>
@@ -33,6 +33,10 @@
 }
 .btn-email__mail:hover{
     color: #d5d5d5;
+}
+.btn-email__icon{
+    width: 40px;
+    height: 40px;
 }
 .btn-email__text{
     font-size: 1rem;
