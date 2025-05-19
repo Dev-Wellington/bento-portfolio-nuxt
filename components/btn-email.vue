@@ -2,7 +2,9 @@
     <div class="btn-email__background">
         <div class="btn-email__mail">
             <icon-mail class="btn-email__icon"/>
-            <p class="btn-email__text">wellingtonsantosprogrammer@gmail.com</p>
+            <a class="btn-email__text" href="mailto:wellingtonsantosprogrammer@gmail.com">
+                wellingtonsantosprogrammer@gmail.com
+            </a>
         </div>
     </div>
 </template>
@@ -26,20 +28,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:25px;
+    width: 360px;
+    height: 80px;
+    border-radius: 25px;
+    gap:5px;
     background-color: #e5e5e5;
     color: #525252;
+    
+}
 
-}
-.btn-email__mail:hover{
-    color: #d5d5d5;
-}
 .btn-email__icon{
     width: 40px;
     height: 40px;
 }
 .btn-email__text{
+    text-decoration: none;
     font-size: 1rem;
     color: #525252;
+}
+.btn-email__text:hover{
+    color: #262626;
 }
 </style>
