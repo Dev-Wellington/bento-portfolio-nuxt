@@ -11,6 +11,7 @@
       <h2>Entre em contato pelo formulário abaixo</h2>
       <component></component>
     </div>
+    <form-container/>
   </div>
 </template>
 
