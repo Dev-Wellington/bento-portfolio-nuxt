@@ -1,10 +1,13 @@
 <template>
-  <div class="back">
-    <div>
+  <div class="back-container">
+    <div class="back">
       <icon-linkedin class="linkedin-icon" />
       <h3>LinkedIn</h3>
-      <p>Interessado no meu perfil?</p>
-      <p>No LinkedIn, você encontra mais sobre minha trajetória e projetos.</p>
+      <div class="text">
+        <p>Interessado no meu perfil?
+        No LinkedIn, você encontra mais sobre minha trajetória e projetos.</p>
+
+      </div>
     </div>
     <a
       href="https://www.linkedin.com/in/wellington-ds-silva/"
@@ -19,12 +22,21 @@
 <script setup lang="ts"></script>
 
 <style scoped>
-.back {
+.back-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
   width: min(400px, 100%);
   height: 300px;
   background-color: #f5f5f5;
   border-radius: 20px;
   color: #525252;
+ 
+}
+.back{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 h3 {
   font-size: 1.25rem;
