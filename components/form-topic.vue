@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label for="topic"></label>
+    <label for="topic">Assunto</label>
     <input
       type="topic"
       id="topic"
@@ -16,8 +16,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-const topicPlaceholder = "Enter your topic";
-const topicTitle = "Please enter a valid topic";
+const topicPlaceholder = "Digite o assunto da sua mensagem";
+const topicTitle = "Digite um assunto valido para sua mensagem";
 </script>
 
 <style scoped></style>

@@ -14,8 +14,8 @@
 </template>
 
 <script setup lang="ts">
-const messagePlaceholder = "Enter your message here";
-const messageTitle = "Please enter a valid message";
+const messagePlaceholder = "Escreva sua mensagem aqui";
+const messageTitle = "Por favor escreva uma mensagem válida";
 </script>
 
 <style scoped>

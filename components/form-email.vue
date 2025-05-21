@@ -14,8 +14,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-const emailPlaceholder = "Enter your email address";
-const emailTitle = "Please enter a valid email address";
+const emailPlaceholder = "Digite seu endereço de email";
+const emailTitle = "Por favor digite um email válido";
 // const email = ref<string>('');
 </script>
 
