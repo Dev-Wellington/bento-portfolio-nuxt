@@ -1,6 +1,6 @@
 <template>
     <div>
-        <label for="message"></label>
+        <label for="message">Mensagem</label>
         <textarea
             id="message"
             name="message"
@@ -19,5 +19,9 @@ const messageTitle = "Por favor escreva uma mensagem válida";
 </script>
 
 <style scoped>
-
+div{
+    display:flex;
+    flex-direction:column;
+    
+}
 </style>

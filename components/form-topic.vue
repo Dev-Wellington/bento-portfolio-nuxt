@@ -20,4 +20,10 @@ const topicPlaceholder = "Digite o assunto da sua mensagem";
 const topicTitle = "Digite um assunto valido para sua mensagem";
 </script>
 
-<style scoped></style>
+<style scoped>
+div{
+    display:flex;
+    flex-direction:column;
+    
+}
+</style>

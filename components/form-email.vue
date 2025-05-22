@@ -1,6 +1,6 @@
 <template>
     <div>
-        <label for="email"></label>
+        <label for="email">Email</label>
         <input 
             type="email" 
             id="email" 
@@ -20,5 +20,9 @@ const emailTitle = "Por favor digite um email válido";
 </script>
 
 <style scoped>
-
+div{
+    display:flex;
+    flex-direction:column;
+    
+}
 </style>
