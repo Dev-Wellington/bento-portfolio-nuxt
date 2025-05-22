@@ -21,7 +21,7 @@
 
 <style scoped>
 .contact{
- margin-top:3vh;
+ margin-top:7dvh;
 }
 .socials{
   display: flex;
@@ -35,8 +35,11 @@
   gap:50px;
 }
 .form{
+  margin-top: 8dvh;
   display: flex;
   justify-content: center;
+  align-items: center;
+
   
 }
 </style>

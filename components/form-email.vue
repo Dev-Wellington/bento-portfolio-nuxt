@@ -37,7 +37,7 @@ const emailTitle = "Digite um email válido";
   display: flex;
   flex-direction: column;
   width: min(915px, 100%);
-  gap: 6px;
+  
 }
 
 label {

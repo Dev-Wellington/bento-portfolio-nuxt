@@ -10,4 +10,11 @@
 
 <style scoped>
 
+h2{
+    width: 100%;
+    color: #525252;
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
 </style>
