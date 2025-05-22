@@ -8,10 +8,10 @@
       <btn-large-linkedin />
     </div>
     <div class="form">
-      <h2>Entre em contato pelo formulário abaixo</h2>
+     
       <component></component>
     </div>
-    <form-container/>
+  <form-container class="form"/>
   </div>
 </template>
 
@@ -27,11 +27,16 @@
   display: flex;
   justify-content: center;
   
-  gap: 2rem;
+  gap: 7.20rem;
 }
 .email-github{
   display: flex;
   flex-direction:column;
   gap:50px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  
 }
 </style>
