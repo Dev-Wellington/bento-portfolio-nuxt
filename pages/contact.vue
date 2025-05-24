@@ -36,6 +36,8 @@
 }
 .form{
   margin-top: 8dvh;
+  margin-bottom: 8dvh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
