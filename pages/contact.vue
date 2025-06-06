@@ -8,40 +8,36 @@
       <btn-large-linkedin />
     </div>
     <div class="form">
-     
       <component></component>
     </div>
-  <form-container class="form"/>
+    <form-container class="form" />
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
-.contact{
- margin-top:7dvh;
+.contact {
+  margin-top: 7dvh;
 }
-.socials{
+.socials {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  
-  gap: 7.20rem;
+  gap: ;
 }
-.email-github{
+.email-github {
   display: flex;
-  flex-direction:column;
-  gap:50px;
+  flex-direction: column;
+  gap: 50px;
 }
-.form{
+.form {
   margin-top: 8dvh;
   margin-bottom: 8dvh;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
 </style>
