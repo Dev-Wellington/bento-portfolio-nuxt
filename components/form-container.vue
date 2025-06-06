@@ -1,11 +1,12 @@
 <template>
   <div class="form-container">
     <div class="field">
-      <form @submit.prevent="handleSubmit">
+      <form @submit.prevent="submit" ref="form">
         <form-info />
         <form-topic />
         <form-email />
         <form-message />
+        <input type="hidden" name="_captcha" value="false">
         <form-button />
       </form>
     </div>
@@ -13,9 +14,23 @@
 </template>
 
 <script setup lang="ts">
-const handleSubmit = () => {
-  console.log("Form submitted!");
-};
+import { ref } from 'vue'
+
+const form = ref<HTMLFormElement | null>(null)
+
+const submit = async () => {
+  if (!form.value) return
+
+  const formData = new FormData(form.value)
+  await fetch('https://formsubmit.co/wellingtonsantosprogrammer@gmail.com', {
+    method: 'POST',
+    body: formData,
+  })
+
+  
+  
+  form.value.reset()
+}
 </script>
 
 <style scoped>
