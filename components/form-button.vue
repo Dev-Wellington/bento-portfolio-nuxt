@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="sendMessage">{{ send }}</button>
+    <button type="submit" @click="sendMessage">{{ send }}</button>
   </div>
 </template>
 
