@@ -17,7 +17,12 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import cardInfoProject from '~/components/projects/card-info-project.vue';
+import btnLiveProject from '~/components/projects/btn-live-project.vue';
+import btnGithubLinks from '~/components/projects/btn-github-links.vue';
+// import cardVideoProject from '~/components/projects/card-video-project.vue';
+</script>
 
 <style scoped>
 .teste {

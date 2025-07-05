@@ -25,7 +25,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: ;
+  gap: clamp(1rem, 7vw, 7.2rem);
 }
 .email-github {
   display: flex;
