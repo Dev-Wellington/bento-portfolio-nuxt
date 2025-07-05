@@ -6,6 +6,7 @@
     >
       <icon-github class="btn-github-profile__logo" />
     </a>
+    <!-- fazer com que quando pequeno aparecer o texto e mudar o sentido -->
   </div>
 </template>
 
