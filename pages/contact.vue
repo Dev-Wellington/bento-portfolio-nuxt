@@ -2,10 +2,10 @@
   <div class="contact">
     <div class="socials">
       <div class="email-github">
-        <btn-email />
+        <contact-btn-email />
         <btn-github-profile />
       </div>
-      <btn-large-linkedin />
+      <contact-btn-large-linkedin />
     </div>
     <div class="form">
       <component></component>
