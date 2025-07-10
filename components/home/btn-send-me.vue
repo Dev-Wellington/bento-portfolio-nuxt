@@ -1,13 +1,15 @@
-email-button.vue
-Botão de localização (Google Maps):
+<template>
+    <div>
+        <a href="mailto:seuemail@exemplo.com" class="btn-send-me">{{text}}</a>
+    </div>
+</template>
 
-location-button.vue
-Carrossel de certificados:
+<script setup lang="ts">
+import { ref } from 'vue';
 
-certificates-carousel.vue
-Botão para sua foto:
+const text = ref<string>('ME MANDE UM EMAIL');
+</script>
 
-profile-photo-button.vue
-Botão para foto de background:
+<style scoped>
 
-background-photo-button.vue
+</style>
