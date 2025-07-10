@@ -1,6 +1,7 @@
 <template>
-    <div>    
-        <h2>teste</h2>
+    <div class="home-container">    
+        <home-left-side />
+        <home-right-side />
     </div>
 </template>
 
@@ -9,5 +10,12 @@
 </script>
 
 <style scoped>
-
+.home-container {
+    display:flex;
+   
+    gap: 35px;
+   
+    
+    
+}
 </style>
