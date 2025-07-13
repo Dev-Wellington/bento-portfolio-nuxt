@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-left-side">
     <home-profile-photo />
     <background-photo />
 
@@ -17,4 +17,8 @@
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+.home-left-side{
+   max-width: 450px;
+}
+</style>
