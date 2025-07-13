@@ -1,8 +1,11 @@
 <template>
     <div class="home-right-side">
         <home-about />
-        <home-card-resume />
-        <home-skills-carousel />
+        <div class="tst">
+
+            <home-card-resume />
+            <home-skills-carousel />
+        </div>
     </div>
 </template>
 
@@ -14,9 +17,14 @@
 .home-right-side{
     display: flex;
     flex-direction: column;
+    max-width: 450px;
+    gap: 55px;
+}
+.tst{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 450px;
-    gap: 35px;
+    gap: 28px;
 }
 </style>
