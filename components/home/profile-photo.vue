@@ -1,13 +1,12 @@
 <template>
     <div>
-        <img :src="profile" alt="">
+        <img :src="profile" alt="Profile photo" />
     </div>
 </template>
 
 <script setup lang="ts">
-const profile: string = new URL('@/assets/images/profile.jpg', import.meta.url).href;
+const profile: string = '/img/EXperfil.png';
 </script>
 
 <style scoped>
-
 </style>
