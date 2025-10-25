@@ -50,7 +50,7 @@
   align-items: center;
   height: 55px;
   width: min(100%, 350px);
-  background-color: #171717;
+  background-color: #F5F5F5;
   border-radius: 15px;
   & .layout__nav-list {
     display: flex;
@@ -62,7 +62,7 @@
 
     & a {
       text-decoration: none;
-      color: #fff;
+      color: #525252;
     }
   }
 }
@@ -74,11 +74,11 @@
   height: min(100%, 40px);
   width: 100px;
   border-radius: 15px;
-  background-color: #373737;
+  background-color: #E5E5E5;
 }
 .layout__nav-item:hover {
   transition: background-color 0.2s;
-  background-color: #262626;
+  background-color: #d4d4d4;
   color: #a3a3a3;
 }
 
