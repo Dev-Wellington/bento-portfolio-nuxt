@@ -19,8 +19,8 @@ import iconGithub from './icons/icon-github.vue';
   display: flex;
   place-items: center;
  border-radius: 15px;
-    height: 82px;
-    width:  min(143px,100%);
+    height: 125px;
+    width:  400px;
   background-color: #F5F5F5;
   cursor: pointer;
 }
