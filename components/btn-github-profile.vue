@@ -10,16 +10,19 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import iconGithub from './icons/icon-github.vue';
+</script>
 
 <style scoped>
 .btn-github-profile {
-  width: min(100%, 400px);
-  height: 125px;
   display: flex;
   place-items: center;
-  background-color: #f5f5f5;
-  border-radius: 20px;
+ border-radius: 15px;
+    height: 82px;
+    width:  min(143px,100%);
+  background-color: #F5F5F5;
+  cursor: pointer;
 }
 .btn-github-profile__link {
   text-decoration: none;
