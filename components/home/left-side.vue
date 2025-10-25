@@ -30,8 +30,7 @@
 .profile-photos {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  
   gap: 25px;
 }
 .profile-actions {
@@ -45,7 +44,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 50px;
+ justify-content: space-between;
+ 
 }
 </style>

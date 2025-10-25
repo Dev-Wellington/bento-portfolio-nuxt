@@ -10,8 +10,10 @@
 
 <style scoped>
 div{
+    div{
     width: 100%;
-    height: 308px;
+    height: 164px;
     background-color: black;
+}
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="btn-minimal-linkedin">
         <span>
             <icon-linkedin/>
             <h3>LinkedIn</h3>
@@ -12,11 +12,12 @@
 </script>
 
 <style scoped>
-div{
+.btn-minimal-linkedin {
     display: flex;
     border-radius: 15px;
-    padding: 20px;
-    width:  min(200px,100%);
+    height: 82px;
+    width:  min(143px,100%);
+    
     background-color: #171717;
 }
 span{

@@ -18,7 +18,9 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import IconLinkedin from '@/components/icons/icon-linkedin.vue';
+</script>
 
 <style scoped>
 .linkedin-card-container {
@@ -48,6 +50,7 @@ p {
 .linkedin-card-icon {
   width: 60px;
   height: 60px;
+  
 }
 .linkedin-card-text {
 }
