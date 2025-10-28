@@ -65,4 +65,7 @@ p {
   background-color: #e5e5e5;
   color: #525252;
 }
+.linkedin-card-btn:hover {
+  background-color: #d4d4d4;
+}
 </style>
