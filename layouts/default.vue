@@ -86,15 +86,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   border-top: 2px solid #a3a3a3;
+  height: 80px;
+  width: 100%;
+
 }
 .layout__footer-content {
-  margin-top: 35px;
-  width: 100%;
+  
+  width: min(915px, 100%);
   display: flex;
   flex-direction: row;
 
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .layout__footer-text {
