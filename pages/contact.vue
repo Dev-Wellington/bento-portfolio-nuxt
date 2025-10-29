@@ -41,4 +41,19 @@ gap: clamp(1rem, 10vw, 7rem);
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .socials {
+    flex-wrap: nowrap;
+    gap: clamp(1rem, 5vw, 3rem);
+  }
+  .email-github {
+    gap: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .socials {
+    flex-direction: column;
+    
+  } 
+}
 </style>
