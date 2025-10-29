@@ -7,9 +7,7 @@
       </div>
       <contact-btn-large-linkedin />
     </div>
-    <div class="form">
-      <component></component>
-    </div>
+   
     <form-container class="form" />
   </div>
 </template>
@@ -21,11 +19,14 @@
   margin-top: 7dvh;
 }
 .socials {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: clamp(1rem, 7vw, 7.2rem);
+gap: clamp(1rem, 10vw, 7rem);
+
+
 }
 .email-github {
   display: flex;
@@ -35,7 +36,7 @@
 .form {
   margin-top: 8dvh;
   margin-bottom: 8dvh;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
