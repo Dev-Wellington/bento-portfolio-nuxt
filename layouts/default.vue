@@ -35,7 +35,9 @@
 </template>
 
 <style scoped>
-
+.layout{
+  padding: 0 clamp(1rem, 5vw, 5rem);
+}
 .layout__header {
   display: flex;
   flex-direction: row;
