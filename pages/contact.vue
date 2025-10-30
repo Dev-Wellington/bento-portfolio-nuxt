@@ -24,7 +24,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: clamp(0.5rem, 5vw, 5rem);
+  gap: clamp(0.5rem, 10vw, 7rem);
 }
 .email-github {
   display: flex;
@@ -47,7 +47,7 @@
 }
 @media (max-width: 480px) {
   .email-github {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 }
 </style>
