@@ -28,7 +28,9 @@
         <p class="layout__footer-text">
           &copy; 2024 - {{ new Date().getFullYear() }} • Built by Wellington
         </p>
-        <button class="layout__btn-theme-toggle"></button>
+        
+          <theme-toggle />
+        
       </span>
     </footer>
   </div>
@@ -109,5 +111,8 @@
 .layout__btn-theme-toggle {
   width: 35px;
   height: 35px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 </style>
