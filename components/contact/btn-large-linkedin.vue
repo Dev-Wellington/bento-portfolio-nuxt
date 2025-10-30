@@ -21,13 +21,14 @@
 <script setup lang="ts">
 import IconLinkedin from '@/components/icons/icon-linkedin.vue';
 </script>
-
 <style scoped>
 .linkedin-card-container {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
-  width: min(400px, 100%);
+  width: 400px;
+  min-width: 320px;
+  
   height: 300px;
   background-color: #f5f5f5;
   border-radius: 20px;

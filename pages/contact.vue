@@ -22,16 +22,15 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
-gap: clamp(1rem, 10vw, 7rem);
-
-
+  align-items: center;
+  gap: clamp(0.5rem, 5vw, 5rem);
 }
 .email-github {
   display: flex;
   flex-direction: column;
   gap: 50px;
+ 
 }
 .form {
   margin-top: 8dvh;
@@ -43,17 +42,12 @@ gap: clamp(1rem, 10vw, 7rem);
 }
 @media (max-width: 768px) {
   .socials {
-    flex-wrap: nowrap;
-    gap: clamp(1rem, 5vw, 3rem);
-  }
-  .email-github {
-    gap: 30px;
+    flex-direction: column;
   }
 }
-@media (max-width: 500px) {
-  .socials {
-    flex-direction: column;
-    
-  } 
+@media (max-width: 480px) {
+  .email-github {
+    gap: 1rem;
+  }
 }
 </style>
