@@ -16,11 +16,12 @@ import iconGithub from './icons/icon-github.vue';
 
 <style scoped>
 .btn-github-profile {
+  height: 125px;
+   width: clamp(350px, 40vw, 400px);
+  
   display: flex;
   place-items: center;
  border-radius: 15px;
-    height: 125px;
-    width:  400px;
   background-color: #F5F5F5;
   cursor: pointer;
 }

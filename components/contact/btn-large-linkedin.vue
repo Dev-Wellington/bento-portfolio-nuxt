@@ -28,8 +28,8 @@ import IconLinkedin from '@/components/icons/icon-linkedin.vue';
   padding: 20px 30px;
   width: 400px;
   min-width: 320px;
+  height:300px;
   
-  height: 300px;
   background-color: #f5f5f5;
   border-radius: 20px;
   color: #525252;
@@ -68,5 +68,14 @@ p {
 }
 .linkedin-card-btn:hover {
   background-color: #d4d4d4;
+}@media (max-width: 768px) {
+  .linkedin-card-container {
+    width: 350px;
+  }
+}
+@media (max-width:480px) {
+  .linkedin-card-container {
+    height: 320px;
+  }
 }
 </style>
