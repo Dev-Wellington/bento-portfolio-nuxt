@@ -37,7 +37,8 @@ const icon = ref(true);
 
 <style scoped>
 .btn-email__background {
-    width: 400px;
+   
+ 
     height: 125px;
     display: flex;
     justify-content: center;
@@ -50,7 +51,7 @@ const icon = ref(true);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 360px;
+    min-width: 90%;
     height: 80px;
     border-radius: 25px;
     padding: 5px;
@@ -68,7 +69,7 @@ const icon = ref(true);
 
 .btn-email__text {
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
     color: #525252;
 }
 
