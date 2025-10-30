@@ -9,11 +9,11 @@
           </li>
           <li class="layout__nav-item">
             <NuxtLink to="/projects" class="layout__nav-link"
-              >Projects</NuxtLink
+              >Projetos</NuxtLink
             >
           </li>
           <li class="layout__nav-item">
-            <NuxtLink to="/contact" class="layout__nav-link">Contact</NuxtLink>
+            <NuxtLink to="/contact" class="layout__nav-link">Contato</NuxtLink>
           </li>
         </ul>
       </nav>
