@@ -1,26 +1,26 @@
 <template>
     <div class="btn-minimal-linkedin">
         <span>
-            <icon-linkedin/>
+            <icon-linkedin class="icon"/>
             <h3>LinkedIn</h3>
         </span>
     </div>
 </template>
 
 <script setup lang="ts">
-
+import IconLinkedin from '@/components/icons/icon-linkedin.vue';
 </script>
 
 <style scoped>
 .btn-minimal-linkedin {
     display: flex;
     border-radius: 15px;
-    height: 82px;
-    width:  min(143px,100%);
+    height: 115px;
+    width:  200px;
     
-    background-color: #171717;
+    background-color: #f5f5f5;
 }
-span{
+span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +29,9 @@ span{
     height: 100%;
     
     cursor: pointer;
-    
+}
+.icon {
+    width: 60px;
+    height: 60px;
 }
 </style>
