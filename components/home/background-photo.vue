@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const background: string = '/img/EXbackground.png';
+const background: string = '/img/background-photo.png';
 </script>
 
 <style scoped>

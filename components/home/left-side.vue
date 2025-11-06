@@ -16,7 +16,7 @@
 
     <div class="profile-social-links">
       <btn-minimal-linkedin />
-      <btn-github-profile />
+      <btn-minimal-github />
     </div>
   </div>
 </template>

@@ -46,6 +46,7 @@ import IconTailwind from '@/components/icons/icon-tailwind.vue';
     background-color:#f5f5f5;
     overflow: hidden;
     position: relative;
+    border-radius:20px;
 }
 
 .carousel-track {
