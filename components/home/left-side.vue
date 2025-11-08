@@ -12,7 +12,7 @@
       <home-btn-location />
     </div>
 
-    <home-certificates-carousel />
+    <home-stats-card />
 
     <div class="profile-social-links">
       <btn-minimal-linkedin />
