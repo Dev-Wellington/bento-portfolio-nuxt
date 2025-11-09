@@ -43,24 +43,20 @@ const stats = {
 .stat-card {
     background-color: #e5e5e5;
     border-radius: 16px;
-    padding: 24px 20px;
+    padding: 16px;
     display: flex;
     align-items: center;
     gap: 12px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.stat-card:hover {
-    transform: translateY(-2px);
-    background-color: #d5d5d5;
-}
+
 
 .stat-card-full {
     width: 100%;
 }
 
 .stat-number {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #2d3748;
     line-height: 1;
@@ -72,7 +68,7 @@ const stats = {
     color: #4a5568;
 }
 
-/* Responsivo */
+
 @media (max-width: 768px) {
     .stats-grid {
         grid-template-columns: 1fr;

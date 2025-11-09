@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     max-width: 450px;
-    gap: 55px;
+    gap: 25px;
 }
 .tst{
     display: flex;

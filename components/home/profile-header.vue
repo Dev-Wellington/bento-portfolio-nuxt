@@ -13,7 +13,11 @@ div{
     gap: 20px;
     width: 100%;
     background-color:#f5f5f5;
-    height: 60px;
+     padding: 16px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:#525252;
 }
 
 </style>

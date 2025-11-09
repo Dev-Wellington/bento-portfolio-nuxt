@@ -26,6 +26,9 @@
 <style scoped>
 .home-left-side {
   max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 .profile-photos {
   display: flex;
@@ -37,7 +40,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 25px;
 }
 .profile-social-links {
