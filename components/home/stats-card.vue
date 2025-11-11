@@ -41,7 +41,7 @@ const stats = {
 }
 
 .stat-card {
-    background-color: #e5e5e5;
+    background-color: #f5f5f5;
     border-radius: 16px;
     padding: 16px;
     display: flex;

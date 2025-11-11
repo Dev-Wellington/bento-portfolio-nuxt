@@ -11,8 +11,8 @@
       <home-btn-send-me />
       <home-btn-location />
     </div>
-
-    <home-stats-card />
+     <home-skills-carousel />
+    
 
     <div class="profile-social-links">
       <btn-minimal-linkedin />
@@ -25,7 +25,8 @@
 
 <style scoped>
 .home-left-side {
-  max-width: 450px;
+  
+  width: clamp(350px, 50vw, 450px);
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -33,7 +34,7 @@
 .profile-photos {
   display: flex;
   flex-direction: row;
-  
+  width: 100%;
   gap: 25px;
 }
 .profile-actions {
@@ -49,5 +50,11 @@
   align-items: center;
  justify-content: space-between;
  
+}
+.profile-photos > *:first-child {
+  flex: 1;
+}
+.profile-photos > *:nth-child(2) {
+  flex: 2;
 }
 </style>

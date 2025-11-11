@@ -1,7 +1,7 @@
 <template>
     <div>
         <icon-mail class="icon-mail" />
-        <a href="mailto:seuemail@exemplo.com" class="btn-send-me">{{text}}</a>
+        <a href="mailto:wellingtonsantosprogrammer@gmail.com" class="btn-send-me">{{text}}</a>
     </div>
 </template>
 
@@ -25,5 +25,9 @@ div{
     width:24px;
     height:24px;
     color:#525252;
+}
+a{
+    text-decoration: none;
+    color:#525252
 }
 </style>

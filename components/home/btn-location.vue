@@ -1,6 +1,6 @@
 <template>
     <div>
-        <icon-map-point />
+        <icon-map-point class="icon-map-point" />
          <p>Rio de Janeiro</p>
     </div>
 </template>
@@ -21,5 +21,10 @@ div {
     background-color:#f5f5f5;
     border-radius:16px;
      padding: 16px;
+}
+.icon-map-point{
+    width:24px;
+    height:24px;
+    color:#525252;
 }
 </style>
