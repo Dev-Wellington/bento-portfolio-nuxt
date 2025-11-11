@@ -17,13 +17,16 @@ const description = ref(
 <style scoped>
 .home-about {
   display: flex;
-  flex-direction: column;
-
-  justify-content: center;
+flex-direction: column;
+    color: #525252;
   
-
-  & p {
-    text-align: justify
-  }
+  
+}
+h1{
+  margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    
 }
 </style>
