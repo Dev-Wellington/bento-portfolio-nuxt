@@ -15,8 +15,9 @@ import IconLinkedin from '@/components/icons/icon-linkedin.vue';
 .btn-minimal-linkedin {
     display: flex;
     border-radius: 15px;
-    height: 115px;
+    height: 64px;
     width:  200px;
+    color: #525252;
     
     background-color: #f5f5f5;
 }

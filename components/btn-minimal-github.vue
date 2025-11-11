@@ -15,9 +15,9 @@ import IconGithub from '@/components/icons/icon-github.vue';
 .btn-minimal-github {
     display: flex;
     border-radius: 15px;
-    height: 115px;
+    height: 64px;
     width:  200px;
-    
+    color: #525252;
     background-color: #f5f5f5;
 }
 span {
@@ -33,5 +33,6 @@ span {
 .icon {
     width: 55px;
     height: 55px;
+    color: #525252;
 }
 </style>
