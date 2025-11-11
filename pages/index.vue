@@ -9,13 +9,14 @@
 
 <style scoped>
 .home-container {
-    margin-top:45px;
   display: flex;
   flex-direction: column;
   
   justify-content: center;
-
+  
   gap: 115px;
+  margin-top:8dvh;
+  margin-bottom:8dvh;
 }
 @media screen and (min-width: 768px) {
   .home-container {
