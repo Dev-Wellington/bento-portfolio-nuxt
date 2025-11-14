@@ -2,11 +2,11 @@
     <div class="stats-container">
         <div class="stats-grid">
             <div class="stat-card">
-                <span class="stat-number">12+</span>
+                <span class="stat-number">2+</span>
                 <span class="stat-label">Projetos</span>
             </div>
             <div class="stat-card">
-                <span class="stat-number">12+</span>
+                <span class="stat-number">7+</span>
                 <span class="stat-label">Tecnologias</span>
             </div>
         </div>
@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-// Você pode tornar os números dinâmicos no futuro
+
 const stats = {
     projects: '12+',
     technologies: '12+',

@@ -8,7 +8,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import IconMail from '../icons/icon-mail.vue';
-const text = ref<string>('ME MANDE UM EMAIL');
+const text = ref<string>('Me mande um email');
 </script>
 
 <style scoped>
