@@ -17,6 +17,7 @@ div {
     gap: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 1rem;
     color:#525252;
     background-color:#f5f5f5;
     border-radius:16px;

@@ -26,7 +26,7 @@
 <style scoped>
 .home-left-side {
   
-  width: clamp(350px, 50vw, 450px);
+  width: clamp(350px, 100%, 450px);
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -51,10 +51,5 @@
  justify-content: space-between;
  
 }
-.profile-photos > *:first-child {
-  flex: 1;
-}
-.profile-photos > *:nth-child(2) {
-  flex: 2;
-}
+
 </style>

@@ -13,8 +13,8 @@ div
 { 
     display:flex;
     align-items:start;
-    width:100%;
-    height:100%;
+    width:50%;
+   
 }
 img {
     width: 100%;

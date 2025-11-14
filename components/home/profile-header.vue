@@ -19,5 +19,11 @@ div{
     font-weight: 500;
     color:#525252;
 }
-
+@media (max-width: 400px) {
+    div {
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px;
+    }
+}
 </style>
