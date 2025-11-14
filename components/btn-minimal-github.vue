@@ -16,7 +16,7 @@ import IconGithub from '@/components/icons/icon-github.vue';
     display: flex;
     border-radius: 15px;
     height: 64px;
-    width:  200px;
+    width:  clamp(165px, 20vw, 200px);
     color: #525252;
     background-color: #f5f5f5;
 }
