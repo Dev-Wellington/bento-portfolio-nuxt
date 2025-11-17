@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>WELLINGTON SILVA</p>
-        <p>FULL-STACK DEVELOPER</p>
+        <p>FRONTEND DEVELOPER</p>
     </div>
 </template>
 
