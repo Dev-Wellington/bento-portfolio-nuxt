@@ -16,20 +16,11 @@ defineProps<{
   descricao?: string
 }>();
 </script>
-<style scoped>
-h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #333;
-}
-p {
-  font-size: 1.125rem;
-  color: #666;
-}
-.skills {
-  display: flex;
-  flex-direction: row;
 
+<style scoped>
+.card__header {
+  display: flex;
+  align-items: center;
   gap: 10px;
 }
 </style>

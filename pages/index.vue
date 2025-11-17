@@ -14,14 +14,16 @@
   
   justify-content: center;
   
-  gap: 115px;
+  gap: clamp(3rem, 10vw, 7rem);
+  flex-direction: row;
+ 
   margin-top:8dvh;
   margin-bottom:8dvh;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .home-container {
-    flex-direction: row;
-    
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>
